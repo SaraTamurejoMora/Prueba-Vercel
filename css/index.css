@@ -1,0 +1,284 @@
+
+/* *{
+    border: 2px solid black;
+}
+
+*/
+header{
+    background-color: rgb(183, 148, 255);
+
+    
+}
+    
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    text-transform: uppercase;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+
+    color: rgb(46, 0, 125);
+    transform: scale(1,1);
+}
+
+.tituloPeliculas{
+    background-color: rgb(120, 39, 196);
+    width: 15%;
+    margin-left: 20px;
+    color: white;
+    padding-left: 10px;
+    
+    text-transform: uppercase;
+
+}
+
+.contenedorPelis{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contenedorPelis h3{
+    background-color: rgb(163, 25, 255);
+    color: white;
+    padding: 8px;
+}
+
+.contenedorPelis article{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    
+}
+
+.contenedorPelis article p{
+    padding: 8px;
+}
+
+.contenedorPelis article img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.descripcion{
+    overflow: hidden;
+    height: 200px;
+}
+
+.genero{
+    background-color: rgb(226, 196, 255);
+}
+
+.contenedorActores{
+    background-color: black;
+    padding: 8px;
+}
+
+.contenedorActores h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.actores{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+    justify-content: space-around;
+}
+.actores article p{
+    display: flex;
+    justify-content: center;
+}
+
+.actores article img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.contenedor_Festivales_Series{
+    display: flex;
+    flex-direction: row;
+}
+
+.festivales{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: rgb(142, 29, 255);
+    align-items: center;
+}
+
+.festivales h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.festivales h3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.festivales img{
+    width: 300px;
+}
+
+
+.festivales article{
+    margin-bottom: 15px;
+    border: solid rgb(194, 155, 255);
+    background-color: rgb(219, 197, 255);
+}
+
+.festivales article:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+.series{
+    width: 100%;
+
+}
+
+.series h2{
+    width: 100%;
+    color: rgb(106, 0, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+
+.contenedorSeries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.contenedorSeries article{
+    padding: 7px;
+    margin: 7px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedorSeries img{
+    width: 230px;
+
+    
+}
+
+.contenedorSeries h3{
+    padding: 8px;
+    width: 80%;
+}
+
+.contenedorSeries img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    
+}
+
+.contenedorSeries article h3{
+    background-color: rgb(82, 17, 187);
+    color: white;
+}
+.contenedorSeries p{
+    width: 80%;
+}
+
+.contenedorMasVisto{
+    background-color: black;
+    color: white;   
+    padding: 8px; 
+}
+.contenedorMasVisto h2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.masVisto {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.masVisto article img{
+    width: 150px;
+}
+.masVisto article img:hover{
+    width: 150px;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.masVisto article p{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(183, 148, 255);
+    color: white;
+
+}
+.redSocial img{
+    width: 20px;
+}
+
+.redSocial, address, .copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+address, .redSocial{
+    margin-top: 15px;
+}
+
+
+
+

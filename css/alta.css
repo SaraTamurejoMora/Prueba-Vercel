@@ -1,0 +1,138 @@
+/*
+*{
+    border: 2px solid black;
+}
+    */
+header{
+    background-color: rgb(183, 148, 255);   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+
+    color: rgb(46, 0, 125);
+    transform: scale(1,1);
+}
+
+.contenedorFormulario{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.tituloFormulario{
+    background-color: rgb(120, 39, 196);
+    width: 40%;
+    margin-left: 20px;
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+}
+
+.tituloRegistro{
+    background-color: rgb(108, 69, 145);
+    color: white;
+}
+
+.tituloEncuesta{
+    background-color: rgb(108, 69, 145);
+    color: white;
+}
+
+.contenedorRegistro{
+    background-color: rgb(157, 104, 192);
+    color: white;
+
+}
+
+.contenedorRegistro label, input{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.nombre, .correo, .fechaNacimiento, .comentario{
+    background-color: rgb(196, 130, 240);
+}
+
+.terminos{
+    display: flex;
+    background-color: rgb(196, 130, 240);
+}
+
+.contenedorEncuesta{
+    background-color: rgb(157, 104, 192);
+    color: white;
+}
+
+.encuesta{
+    display: flex;
+    background-color: rgb(196, 130, 240);
+    margin-bottom: 5px;
+}
+
+.frecuencia{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 130, 240);
+    
+}
+
+.botonEnviar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    
+    
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(183, 148, 255);
+    color: white;
+
+
+}
+.redSocial img{
+    width: 20px;
+}
+
+.redSocial, address, .copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+address, .redSocial{
+    margin-top: 15px;
+}
